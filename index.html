@@ -259,6 +259,18 @@
               <time title="创建时间：2019-11-17 22:09:45" itemprop="dateCreated datePublished" datetime="2019-11-17T22:09:45+08:00">2019-11-17</time>
             </span>
           
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-11-18 22:53:52" itemprop="dateModified" datetime="2019-11-18T22:53:52+08:00">2019-11-18</time>
+              </span>
+            
+          
 
           
             <span class="post-meta-item" title="阅读次数">
@@ -303,9 +315,11 @@
           
             <h2 id="基本操作命令"><a href="#基本操作命令" class="headerlink" title="基本操作命令"></a>基本操作命令</h2><h3 id="1-权限相关"><a href="#1-权限相关" class="headerlink" title="1.权限相关"></a>1.权限相关</h3><h4 id="a-添加用户"><a href="#a-添加用户" class="headerlink" title="a.添加用户"></a>a.添加用户</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">useradd username  //添加用户 </span><br><span class="line">passwd username //修改用户密码</span><br></pre></td></tr></table></figure>
 
-<h3 id="b-切换用户"><a href="#b-切换用户" class="headerlink" title="b.切换用户"></a>b.切换用户</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su root //切换至root用户,但是环境变量为登陆用户的环境变量</span><br><span class="line">su -root //切换至root用户,环境变量也变为root</span><br><span class="line">sudo xxxx  //暂时以root的身份执行某命令</span><br></pre></td></tr></table></figure>
+<h3 id="b-切换用户"><a href="#b-切换用户" class="headerlink" title="b.切换用户"></a>b.切换用户</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su root //切换至root用户,但是环境变量为登陆用户的环境变量</span><br><span class="line">su - root //切换至root用户,环境变量也变为root</span><br><span class="line">sudo xxxx  //暂时以root的身份执行某命令</span><br></pre></td></tr></table></figure>
 
 <h3 id="c-文件授权"><a href="#c-文件授权" class="headerlink" title="c.文件授权"></a>c.文件授权</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod -R 777  xxx.text //开放xxx.text的读写权限给所有用户及用户组</span><br></pre></td></tr></table></figure>
+
+
           
         
       

@@ -5,8 +5,10 @@
     <url>/2019/11/17/linux%E6%9D%83%E9%99%90%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="基本操作命令"><a href="#基本操作命令" class="headerlink" title="基本操作命令"></a>基本操作命令</h2><h3 id="1-权限相关"><a href="#1-权限相关" class="headerlink" title="1.权限相关"></a>1.权限相关</h3><h4 id="a-添加用户"><a href="#a-添加用户" class="headerlink" title="a.添加用户"></a>a.添加用户</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">useradd username  //添加用户 </span><br><span class="line">passwd username //修改用户密码</span><br></pre></td></tr></table></figure>
 
-<h3 id="b-切换用户"><a href="#b-切换用户" class="headerlink" title="b.切换用户"></a>b.切换用户</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">su root //切换至root用户,但是环境变量为登陆用户的环境变量</span><br><span class="line">su -root //切换至root用户,环境变量也变为root</span><br><span class="line">sudo xxxx  //暂时以root的身份执行某命令</span><br></pre></td></tr></table></figure>
+<h3 id="b-切换用户"><a href="#b-切换用户" class="headerlink" title="b.切换用户"></a>b.切换用户</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">su root //切换至root用户,但是环境变量为登陆用户的环境变量</span><br><span class="line">su - root //切换至root用户,环境变量也变为root</span><br><span class="line">sudo xxxx  //暂时以root的身份执行某命令</span><br></pre></td></tr></table></figure>
 
-<h3 id="c-文件授权"><a href="#c-文件授权" class="headerlink" title="c.文件授权"></a>c.文件授权</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod -R 777  xxx.text //开放xxx.text的读写权限给所有用户及用户组</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="c-文件授权"><a href="#c-文件授权" class="headerlink" title="c.文件授权"></a>c.文件授权</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">chmod -R 777  xxx.text //开放xxx.text的读写权限给所有用户及用户组</span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
 </search>
